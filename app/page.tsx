@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import { DollarSign, Sparkles } from 'lucide-react'
+import Link from 'next/link'
 
 export default function HomePage() {
   const [totalIncome, setTotalIncome] = useState(0)
@@ -22,10 +23,14 @@ export default function HomePage() {
             Let's start your journey of abundance
           </p>
 
-          <button className="bg-gradient-to-r from-purple-500 to-violet-600 hover:from-purple-600 hover:to-violet-700 text-white font-semibold py-3 px-8 rounded-xl transition-all duration-200 transform hover:scale-105 flex items-center justify-center gap-2 mx-auto">
-            <Sparkles className="w-5 h-5" />
-            Get Started
-          </button>
+          <Link href="/renda">
+            <button
+              className="bg-gradient-to-r from-purple-500 to-violet-600 hover:from-purple-600 hover:to-violet-700 text-white font-semibold py-3 px-8 rounded-xl transition-all duration-200 transform hover:scale-105 flex items-center justify-center gap-2 mx-auto"
+            >
+              <Sparkles className="w-5 h-5" />
+              Get Started
+            </button>
+          </Link>
         </div>
       </div>
     </div>

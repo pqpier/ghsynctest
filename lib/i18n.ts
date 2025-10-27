@@ -395,7 +395,7 @@ const resources = {
       // Stats
       today: "Hoy",
       this_week: "Esta Semana",
-      this_month: "Este Mes",
+      this_month: "Este Mês",
       all_time: "Todo el Tiempo",
       no_data: "Sin datos disponibles",
       
@@ -411,21 +411,20 @@ const resources = {
 };
 
 // Initialize i18n
-if (typeof window !== 'undefined') {
-  i18n
-    .use(LanguageDetector)
-    .use(initReactI18next)
-    .init({
-      resources,
-      fallbackLng: "en",
-      interpolation: {
-        escapeValue: false, // React already escapes values
-      },
-      detection: {
-        order: ["localStorage", "navigator"],
-        caches: ["localStorage"],
-      },
-    });
-}
+i18n
+  .use(LanguageDetector)
+  .use(initReactI18next)
+  .init({
+    resources,
+    fallbackLng: "en",
+    lng: "en", // Default language
+    interpolation: {
+      escapeValue: false, // React already escapes values
+    },
+    detection: {
+      order: ["localStorage", "navigator"],
+      caches: ["localStorage"],
+    },
+  });
 
 export default i18n;

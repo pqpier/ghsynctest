@@ -18,7 +18,7 @@ export default function DashboardLayout({
               width={200} 
               height={60}
               priority
-              className="h-10 w-auto"
+              className="h-12 w-auto"
             />
           </div>
         </div>
