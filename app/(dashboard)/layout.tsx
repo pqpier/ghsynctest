@@ -1,5 +1,6 @@
 import BottomNavigation from "@/components/layout/bottom-navigation"
 import Image from 'next/image'
+import LanguageSwitcher from '@/components/language-switcher'
 
 export default function DashboardLayout({
   children,
@@ -11,7 +12,7 @@ export default function DashboardLayout({
       {/* Header with Logo */}
       <header className="sticky top-0 z-40 border-b bg-white/80 dark:bg-stone-900/80 backdrop-blur-sm">
         <div className="container mx-auto px-4 py-3">
-          <div className="flex items-center justify-center">
+          <div className="flex items-center justify-between">
             <Image 
               src="/logo.svg" 
               alt="Abundance Flow" 
@@ -20,6 +21,7 @@ export default function DashboardLayout({
               priority
               className="h-12 w-auto"
             />
+            <LanguageSwitcher />
           </div>
         </div>
       </header>

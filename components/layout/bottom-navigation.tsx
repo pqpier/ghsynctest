@@ -3,39 +3,41 @@
 import { useRouter, usePathname } from "next/navigation";
 import { Home, Wallet, PlusCircle, TrendingUp, Gift } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { useTranslation } from "react-i18next";
 
 const BottomNavigation = () => {
   const router = useRouter();
   const pathname = usePathname();
+  const { t } = useTranslation();
 
   // Planner financeiro navigation
   const navItems = [
     {
-      label: "Home",
+      label: t("home"),
       icon: Home,
       path: "/",
       active: pathname === "/",
     },
     {
-      label: "Income",
+      label: t("income"),
       icon: PlusCircle,
       path: "/renda",
       active: pathname.includes("/renda"),
     },
     {
-      label: "Buckets",
+      label: t("buckets"),
       icon: Wallet,
       path: "/baldes",
       active: pathname.includes("/baldes"),
     },
     {
-      label: "Progress",
+      label: t("progress"),
       icon: TrendingUp,
       path: "/progress",
       active: pathname.includes("/progress"),
     },
     {
-      label: "Bonus",
+      label: t("bonus"),
       icon: Gift,
       path: "/bonus",
       active: pathname.includes("/bonus"),

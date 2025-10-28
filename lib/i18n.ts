@@ -22,10 +22,10 @@ const resources = {
       
       // Navigation
       home: "Home",
-      tasks: "Tasks",
-      pomodoro: "Timer",
+      income: "Income",
+      buckets: "Buckets",
       progress: "Progress",
-      settings: "Settings",
+      bonus: "Bonus",
       
       // Auth
       login: "Login",
@@ -42,6 +42,9 @@ const resources = {
       
       // Home/Dashboard
       welcome: "Welcome back",
+      welcome_message: "Welcome to Abundance Flow!",
+      subtitle: "Let's start your journey of abundance",
+      get_started: "Get Started",
       daily_overview: "Daily Overview",
       tasks_completed: "Tasks Completed",
       pomodoros_completed: "Pomodoros Completed",
@@ -156,10 +159,10 @@ const resources = {
       
       // Navigation
       home: "Início",
-      tasks: "Tarefas",
-      pomodoro: "Timer",
+      income: "Renda",
+      buckets: "Baldes",
       progress: "Progresso",
-      settings: "Configurações",
+      bonus: "Bônus",
       
       // Auth
       login: "Entrar",
@@ -176,6 +179,9 @@ const resources = {
       
       // Home/Dashboard
       welcome: "Bem-vindo de volta",
+      welcome_message: "Bem-vindo ao Abundance Flow!",
+      subtitle: "Vamos iniciar sua jornada de abundância",
+      get_started: "Começar",
       daily_overview: "Visão Diária",
       tasks_completed: "Tarefas Concluídas",
       pomodoros_completed: "Pomodoros Concluídos",
@@ -290,10 +296,10 @@ const resources = {
       
       // Navigation
       home: "Inicio",
-      tasks: "Tareas",
-      pomodoro: "Temporizador",
+      income: "Ingresos",
+      buckets: "Cubos",
       progress: "Progreso",
-      settings: "Configuración",
+      bonus: "Bonos",
       
       // Auth
       login: "Iniciar sesión",
@@ -310,6 +316,9 @@ const resources = {
       
       // Home/Dashboard
       welcome: "Bienvenido de vuelta",
+      welcome_message: "¡Bienvenido a Abundance Flow!",
+      subtitle: "Comencemos tu viaje de abundancia",
+      get_started: "Empezar",
       daily_overview: "Resumen Diario",
       tasks_completed: "Tareas Completadas",
       pomodoros_completed: "Pomodoros Completados",
