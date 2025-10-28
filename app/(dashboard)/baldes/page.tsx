@@ -38,17 +38,17 @@ export default function BaldesPage() {
           <div className="text-center">
             <div className="text-6xl mb-4">⚠️</div>
             <h1 className="text-2xl font-bold text-gray-800 mb-2">
-              Baldes da Prosperidade
+              Prosperity Buckets
             </h1>
             <p className="text-gray-600 mb-6">
-              Você ainda não cadastrou sua renda para visualizar os baldes da abundância.
+              You haven't registered your income yet to view your abundance buckets.
             </p>
             <a
               href="/renda"
               className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-purple-500 to-violet-600 text-white rounded-lg font-medium hover:from-purple-600 hover:to-violet-700 transition-all duration-200"
             >
               <DollarSign className="w-5 h-5 mr-2" />
-              Cadastrar Renda
+              Register Income
             </a>
           </div>
         </div>
